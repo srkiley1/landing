@@ -427,13 +427,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* top-navigation*/
 .top-navigation .links li {
    text-align: right;
    display: inline-block;
    float: left;
    margin: 1px;
 }
-
 .top-navigation {
   background-color:  #fff;
   position: fixed;
@@ -444,7 +444,6 @@ table {
     height: 70px;
     margin: 0 auto;
     }
-
 .head {
       font-family: 'Roboto', sans-serif; 
       font-size: 16px; 
@@ -481,8 +480,9 @@ table {
     cursor: pointer;
     color: #333333;
 }
+/* introduction and big-button*/
 .introduction {
-    background-image: url("file:///C:/Users/Lee/Documents/Projects/startup-landing-page-clone/images/first-background copy.jpg");
+    background-image: url("file:///C:/Users/Lee/Documents/Projects/startup-landing-page-clone/first-background copy.jpg");
     background-position: -105px -95px;
     background-repeat: no-repeat;
   
@@ -526,6 +526,7 @@ table {
     cursor: pointer;
     background-color: #ff4719;
   }
+  /* cases*/
   .cases {
     width: 100%;
     margin-top: 20px;
@@ -537,42 +538,36 @@ table {
    }
 
  .cases h2{
-margin-left: -30px;
+   margin-left: -30px;
    text-align: center;
  
 }
+/* miscellaneous which I am afraid to delete */
+
 h2 {
   margin-top: 30px;
   font-size: 35px;
   font-weight: normal; 
   text-align: center;
- margin-right: -45px;
- padding: -30px;
+  margin-right: -45px;
+  padding: -30px;
 }
 ul {
   list-style-type: none;
-  font-size: 0;
+ margin-left: auto;
+ margin-right: auto;
 }
-li {
+ul li {
   display: inline-block;
   text-align: center;
-  margin-left: 30px;
-
-  
   }
 h3 {
    font-weight: normal;
     font-size: 20px;
-    margin-left: 25px;
-
-
-
-    
-}
+      text-align: center;
+  }
 ul {
   display: flex;
-
-
 }
 ul.links li {
   padding-left: 5px;
@@ -582,16 +577,13 @@ ul.images {
   text-align: center;
   display: flex;
 }
-
-
 }
 ul.images {
   display: inline-block;
-  width: 850px;
+  width: 50px;
 }
 .cases {
-  
-  text-align: center;
+   text-align: center;
 }
 .dev {
   margin-left: 350px;
@@ -599,7 +591,6 @@ ul.images {
 h4 {
   text-size: 4px;
 }
-
 .refill {
   text-align: left;
 }
@@ -609,4 +600,38 @@ h4 {
 img {
   margin-left: 45px;
 }
-
+h4 {
+  font-size: 20px;
+  padding: 1px;
+  height: 1px;
+}
+/* I undestand how to use cases now in CSS and Font Awesome!*/
+.devices li {
+  margin-left: 135px;
+}
+.social h4 {
+  margin-top: 10px;
+  margin-bottom: -30px;
+  height:  1px;
+  text-align: center;
+  margin-left: 10px;
+}
+i{
+padding: 20px;
+  font-size:  10px;
+  text-align: center;
+  display: inline-block;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  -moz-box-shadow: 0px 0px 2px #888;
+  -webkit-box-shadow: 0px 0px 2px #888;
+  box-shadow: 0px 0px 2px #888;
+  background-color: #F9F7F5;
+}
+.social {
+  height: 10px;
+}
+.copy {
+  font-size: 15px;
+}
