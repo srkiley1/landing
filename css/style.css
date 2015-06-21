@@ -482,14 +482,12 @@ table {
 }
 /* introduction and big-button*/
 .introduction {
-    background-image: images/first-background copy.jpg;
+    background-image: url('../images/firstbackgroundcopy.jpg');
     background-position: -105px -95px;
     background-repeat: no-repeat;
-  
     height: 700px;
     overflow: auto;
-    width: 1355px;
-      background-size: cover;
+    background-size: cover;
 }
 .introduction h1,
 .introduction h3 {
@@ -536,12 +534,10 @@ table {
     text-align: center;
     font-weight: normal;
    }
-
  .cases h2{
    margin-left: -30px;
    text-align: center;
- 
-}
+ }
 /* miscellaneous which I am afraid to delete */
 
 h2 {
@@ -577,14 +573,16 @@ ul.images {
   text-align: center;
   display: flex;
 }
-}
+
 ul.images {
   display: inline-block;
-  width: 50px;
+  width: 5px;
 }
-.cases {
-   text-align: center;
-}
+.cases .images li{
+
+   display: inline-block;
+
+ }
 .dev {
   margin-left: 350px;
 }
@@ -605,7 +603,7 @@ h4 {
   padding: 1px;
   height: 1px;
 }
-/* I undestand how to use cases now in CSS and Font Awesome!*/
+/* I undestand how to use classes now in CSS and Font Awesome!*/
 .devices li {
   margin-left: 135px;
 }
