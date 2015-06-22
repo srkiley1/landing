@@ -433,6 +433,8 @@ table {
    display: inline-block;
    float: left;
    margin: 1px;
+   padding-left: 5px;
+   padding-left: 5px;
 }
 .top-navigation {
   background-color:  #fff;
@@ -529,7 +531,7 @@ table {
     width: 100%;
     margin-top: 20px;
     box-sizing: border-box;
-    height: 0em;
+    height: -10em;
     font-size: 20px;
     text-align: center;
     font-weight: normal;
@@ -538,20 +540,21 @@ table {
  .cases h2{
    margin-left: -70px;
    text-align: center;
-   margin-left:  30px;
+   margin-left:  10px;
+   height: 0px;
+   margin-bottom: 1px;
+   margin-top: 1px;
+
  }
  .cases .images li {
-  margin-top: 7.875rem;
-  padding: none;
-  text-align: center;
+ 
+
   display: inline-block;
+  padding: 90px;
+  margin-left: -70px;
+  
 }
-.cases .content {
-    margin-top: 7.875rem;
-    padding: none;
-    color: #1d1e21;
-    text-align: center;
-}
+
 .cases .devices {
  margin-top: 7.875rem;
     padding: none;
@@ -562,61 +565,64 @@ table {
 
   ul {
   list-style-type: none;
- margin-left: auto;
+ margin-left: 170px;
  margin-right: auto;
  display: inline-block;
   display: flex;
-}
+
+  
 .cases h3 {
    font-weight: normal;
     font-size: 20px;
       text-align: center;
       display: inline-block;
+      margin-left: -200px;
+      padding: 5px;
     }
 ul.links li {
   padding-left: 5px;
   padding-right: 5px;
 }
 ul.images {
-  text-align: center;
+
+  width: 505px;
+   display: inline-block;
   display: flex;
-  display: inline-block;
-  width: 5px;
 }
  li {
    display: inline-block;
 }
 h4 {
-  text-size: 4px;
+  text-size: 3px;
   font-size: 20px;
   padding: 3px;
   height: 1px;
   width: 200px;
   text-align: center;
-  margin-left: 200px
+  margin-left: 2px;
+  margin-bottom: -1px;
 }
 /* I undestand how to use classes now in CSS and Font Awesome!*/
 .devices .images li {
-  margin-left: -105px;
   display: inline-block;
-  text-align: center;
 }
 .social h4 {
-  margin-top: 10px;
-  margin-bottom: -10px;
-  height:  2px;
+  margin-top: 1px;
+
+  height:  1px;
   text-align: center;
   margin-left: 575px;
+margin-bottom: 1px;
 }
 .devices {
-height: 500px;
-text-align: center;
-display: inline-block;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
 vertical-align;
-width: 50%;
+width: 800px;
 }
- i{
-  padding: 20px;
+fa {
+  padding: 5px;
   font-size:  10px;
   -moz-border-radius: 60px;
   -webkit-border-radius: 60px;
@@ -624,10 +630,10 @@ width: 50%;
   -moz-box-shadow: 0px 0px 2px #888;
   -webkit-box-shadow: 0px 0px 2px #888;
   box-shadow: 0px 0px 2px #888;
-  background-color: #F9F7F5; 
-  text-align: center;
-  display: inline-block;
+
 }
 .social {
-  height: 10px;
+  height: -10px;
+}
+.copy {
 }
